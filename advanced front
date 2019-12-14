@@ -1,0 +1,44 @@
+in custom component we can put ng-content
+that use when we use custom component like
+
+<div>
+  <ng-content select=".head"></ng-content>
+  <ng-content select=".body"></ng-content>  
+</div>
+
+
+to use this is custom component
+<app-custom-component>
+  <div class="head"></div>
+  <div class="body" <div/>
+<app-custom-component>
+OR
+
+ng-container : replace div
+
+to use this is custom component
+<app-custom-component>
+  <ng-container class="head"></ng-container>
+  <ng-container class="body" </ng-container> 
+<app-custom-component>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
